@@ -10,7 +10,7 @@
     <RootNamespace>Tools</RootNamespace>
     <AssemblyName>Tools</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
-    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
     <Name>Tools</Name>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -51,7 +51,7 @@
   <ItemGroup>
     <Compile Include="Generators.fs" />
     <Compile Include="Scrambler.fs" />
-    <None Include="Script.fsx" />
+    <Compile Include="Script.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

@@ -129,8 +129,13 @@ namespace PoeHUD
 
 
                 var overlay = new ExternalOverlay(gameController, memory.IsInvalid);
-                Application.Run(overlay);
+                Application.Run(GetOverlay(overlay));
             }
+        }
+
+        private static ExternalOverlay GetOverlay(ExternalOverlay overlay)
+        {
+            return overlay;
         }
     }
 }
